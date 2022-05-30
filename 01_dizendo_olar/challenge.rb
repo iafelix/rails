@@ -4,7 +4,7 @@
 def saudation(person)
   case person
   when /Daniel/i
-    return "#{person}, whow is it going?"
+    return "#{person}, how is it going?"
   else
     return "#{person}, nice to meet you!"
   end
