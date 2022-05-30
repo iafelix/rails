@@ -3,11 +3,11 @@
 def saudation(person)
   case person
   when /Daniel/i
-    return "#{person}, how is it going?"
+    "#{person}, how is it going?"
   else
-    return "#{person}, nice to meet you!"
+    "#{person}, nice to meet you!"
   end
 end
 
 print 'What is your name? '
-puts "#{[`Hello`, `Hi`, `Howdy`].sample(1)}, #{saudation(gets.strip)}"
+puts "#{%w[Hello Hi Howdy].sample(1)[0]}, #{saudation(gets.strip)}"
