@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# frozen_string_literal: true
 
 print 'What is your name? '
 greetings = [`Hello`, `Hi`, `Howdy`]
