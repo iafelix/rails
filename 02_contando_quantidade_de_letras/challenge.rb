@@ -7,7 +7,7 @@ end
 
 input_string = prompt_for_string
 while input_string.length.zero?
-  puts 'The input string is required.'
+  puts "\nThe input string is required."
   input_string = prompt_for_string
 end
 
