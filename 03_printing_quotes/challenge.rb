@@ -19,4 +19,4 @@ fortune = [
   }
 ].sample(1)[0]
 
-puts "#{fortune[:author]} says, \"#{fortune[:quote].tr('"', '')}\""
+puts "#{fortune[:author]} says, \"#{fortune[:quote].delete('"')}\""
